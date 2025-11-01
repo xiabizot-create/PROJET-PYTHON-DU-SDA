@@ -1,0 +1,33 @@
+# Streamlit pour l'interface
+streamlit==1.30.0
+
+# Évaluation JS pour géolocalisation
+streamlit-js-eval==0.1.9
+
+# Requêtes HTTP
+requests==2.31.0
+
+# Manipulation de données
+pandas==2.2.0
+numpy==1.27.0
+
+# Géocodage
+geopy==2.6.0
+
+# Visualisation interactive
+plotly==5.20.0
+
+# Pour la génération de PDF (si tu passes à la génération réelle)
+reportlab==4.0.0
+
+# Envoi d'emails simulé ou réel (SMTP)
+secure-smtplib==0.1.0
+email-validator==2.1.0
+
+# Pour manipulation de dates et heures (déjà inclus mais explicite)
+python-dateutil==2.9.2
+💡 Notes :
+
+Les packages reportlab et secure-smtplib sont là au cas où tu passes de la simulation de PDF/email à la version réelle.
+
+Si tu n’utilises que la simulation locale, seuls streamlit, requests, pandas, numpy, geopy, et plotly suffisent.
